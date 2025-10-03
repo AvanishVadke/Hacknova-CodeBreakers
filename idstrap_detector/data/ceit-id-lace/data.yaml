@@ -1,0 +1,13 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 1
+names:
+  - ceit-id-lace
+roboflow:
+  license: CC BY 4.0
+  project: ceit-id-lace
+  url: https://universe.roboflow.com/jason-fml5e/ceit-id-lace/dataset/1
+  version: 1
+  workspace: jason-fml5e

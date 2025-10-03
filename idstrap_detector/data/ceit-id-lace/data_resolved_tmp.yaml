@@ -1,0 +1,12 @@
+names:
+- ceit-id-lace
+nc: 1
+roboflow:
+  license: CC BY 4.0
+  project: ceit-id-lace
+  url: https://universe.roboflow.com/jason-fml5e/ceit-id-lace/dataset/1
+  version: 1
+  workspace: jason-fml5e
+test: D:\Hacknova-CodeBreakers\idstrap_detector\data\ceit-id-lace\test\images
+train: D:\Hacknova-CodeBreakers\idstrap_detector\data\ceit-id-lace\train\images
+val: D:\Hacknova-CodeBreakers\idstrap_detector\data\ceit-id-lace\valid\images

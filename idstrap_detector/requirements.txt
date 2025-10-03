@@ -1,0 +1,7 @@
+streamlit>=1.25.0
+opencv-python
+ultralytics>=8.0.0
+roboflow
+torch>=1.13.0
+numpy
+pillow
