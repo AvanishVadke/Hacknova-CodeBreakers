@@ -1,6 +1,0 @@
-plate_number,owner_moodle_id,make,model,color,vehicle_type,registration_date
-KA01AB1234,STU001,Honda,Activa,Black,bike,2023-01-15
-KA01CD5678,STU002,Hero,Splendor,Red,bike,2023-02-20
-KA01EF9012,STU003,Maruti,Swift,White,car,2023-03-10
-KA01GH3456,STU004,TVS,Apache,Blue,bike,2023-04-05
-KA01IJ7890,STU005,Hyundai,i20,Silver,car,2023-05-12
