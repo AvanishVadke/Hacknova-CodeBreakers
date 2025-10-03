@@ -30,6 +30,17 @@ output/*.csv
 output/*.json
 !output/README.md
 
+# YOLOv8 Model Files (Large files - download automatically)
+yolov8*.pt
+*.pt
+models/*.pt
+runs/
+weights/
+
+# Captured images
+captured_*.jpg
+captured_*.png
+
 # IDE
 .vscode/
 .idea/
