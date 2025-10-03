@@ -1,8 +1,0 @@
-# Placeholder for trained models
-# Download YOLOv8, face recognition models here
-# Example structure:
-# - yolov8_anpr.pt
-# - facenet_model.pth
-# - id_card_detector.pt
-
-# Models will be downloaded during setup
