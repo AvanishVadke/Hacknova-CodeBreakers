@@ -1,0 +1,6 @@
+moodle_id,name,email,department,phone,vehicle_number,face_embedding_path
+STU001,John Doe,john.doe@campus.edu,Computer Science,+1234567890,KA01AB1234,embeddings/STU001.npy
+STU002,Jane Smith,jane.smith@campus.edu,Electronics,+1234567891,KA01CD5678,embeddings/STU002.npy
+STU003,Mike Johnson,mike.j@campus.edu,Mechanical,+1234567892,KA01EF9012,embeddings/STU003.npy
+STU004,Sarah Williams,sarah.w@campus.edu,Computer Science,+1234567893,KA01GH3456,embeddings/STU004.npy
+STU005,David Brown,david.b@campus.edu,Civil,+1234567894,KA01IJ7890,embeddings/STU005.npy

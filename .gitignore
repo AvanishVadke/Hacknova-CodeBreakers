@@ -1,0 +1,131 @@
+# Node modules
+node_modules/
+.pnpm-store/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Next.js
+.next/
+out/
+build/
+dist/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+backend/venv/
+cv_pipeline/venv/
+.venv/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+backend/.env
+frontend/.env.local
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Database
+*.sqlite
+*.db
+*.sql
+
+# Temporary files
+data/temp/*
+!data/temp/README.md
+*.tmp
+*.bak
+*.cache
+
+# Model files (large files)
+cv_pipeline/models/*.pt
+cv_pipeline/models/*.pth
+cv_pipeline/models/*.h5
+cv_pipeline/models/*.pb
+cv_pipeline/models/*.onnx
+!cv_pipeline/models/.gitkeep
+
+# Data files
+data/embeddings/
+data/photos/
+data/uploads/
+
+# ID card images (sensitive)
+data/id_cards/*.jpg
+data/id_cards/*.png
+!data/id_cards/README.md
+
+# Test coverage
+coverage/
+.nyc_output/
+htmlcov/
+.coverage
+.coverage.*
+*.cover
+
+# Build outputs
+*.egg-info/
+dist/
+build/
+*.spec
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pytest
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Docker
+docker-compose.override.yml
+
+# Misc
+*.pem
+*.key
+*.cert
+.vercel
