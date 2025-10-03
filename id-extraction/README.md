@@ -75,7 +75,11 @@ brew install tesseract
 
 ### 3. Download YOLOv8 Model (Automatic)
 
-The YOLOv8x model (~130MB) will be automatically downloaded on first run.
+The YOLOv8x model (~130MB) will be **automatically downloaded on first run**.
+
+> **Note**: The model file is NOT included in the Git repository due to size limits. 
+> It will download automatically when you first run the detection code.
+> See `models/README.md` for details.
 
 ### 4. Add ID Card Images
 
