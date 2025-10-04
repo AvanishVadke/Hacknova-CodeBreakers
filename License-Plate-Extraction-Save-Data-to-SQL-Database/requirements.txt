@@ -1,0 +1,22 @@
+# Core Dependencies
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# Computer Vision
+opencv-python>=4.8.0
+ultralytics>=8.0.0
+
+# OCR
+paddlepaddle
+paddleocr>=2.6.0
+
+# Database
+db-sqlite3
+
+# Utilities
+Pillow>=10.0.0
+numpy==1.26.4
+huggingface-hub
+
+# YOLOv10 (install separately with: cd yolov10 && pip install -e .)

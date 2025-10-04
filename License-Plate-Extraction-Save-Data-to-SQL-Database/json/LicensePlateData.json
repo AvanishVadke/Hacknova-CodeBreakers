@@ -1,0 +1,92 @@
+[
+  {
+    "Start Time": "2024-10-16T13:32:57.958699",
+    "End Time": "2024-10-16T13:33:17.963280",
+    "License Plate": [
+      "LS15EBC",
+      "LSI5EBC",
+      "LS5EBC"
+    ]
+  },
+  {
+    "Video": "carLicence1.mp4",
+    "Start Time": "2025-10-04T05:16:08.140763",
+    "End Time": "2025-10-04T05:16:13.629438",
+    "License Plates": [
+      "LSI5EBC",
+      "LSEEBC",
+      "LSISEBC",
+      "LSEE",
+      "LSi5EBC",
+      "LsisEBC",
+      "Lsi",
+      "LSEB",
+      "LSE5EB",
+      "LSE5EBC",
+      "E",
+      "EB",
+      "EBC",
+      "LSisEBC"
+    ]
+  },
+  {
+    "Video": "carLicence2.mp4",
+    "Start Time": "2025-10-04T05:16:13.664632",
+    "End Time": "2025-10-04T05:16:24.532071",
+    "License Plates": [
+      "CA45",
+      "CA4",
+      "CA4558",
+      "CA45582",
+      "C455822",
+      "CA455",
+      "C",
+      "CA",
+      "CA455822",
+      "CA4553"
+    ]
+  },
+  {
+    "Video": "carLicence3.mp4",
+    "Start Time": "2025-10-04T05:16:24.555697",
+    "End Time": "2025-10-04T05:16:31.834052",
+    "License Plates": [
+      "ADVNIXR",
+      "ADVNTXRI",
+      "ADVNTXRL",
+      "ADVNTXR"
+    ]
+  },
+  {
+    "Video": "carLicence4.mp4",
+    "Start Time": "2025-10-04T05:16:31.870723",
+    "End Time": "2025-10-04T05:16:51.906827",
+    "License Plates": [
+      "R884RS",
+      "L6osHZ",
+      "N894JV",
+      "R83JF",
+      "D",
+      "K884RS",
+      "K88RS",
+      "66HH0Z",
+      "R1B3JF",
+      "66HH07",
+      "R183F",
+      "66HHQ7",
+      "L6s6XH",
+      "L605HZ",
+      "R183JF",
+      "894Jv",
+      "N894J",
+      "L6o5HZ",
+      "L656XH",
+      "66HA07",
+      "4644LX",
+      "R1B3J",
+      "RI83JF",
+      "RIB3JF",
+      "KBBARS"
+    ]
+  }
+]
