@@ -129,3 +129,208 @@ docker-compose.override.yml
 *.key
 *.cert
 .vercel
+
+# ============================================
+# 🎯 ID CARD EXTRACTION PROJECT (YOLOv8)
+# ============================================
+
+# YOLOv8 Model Files (Large files)
+yolov8*.pt
+runs/
+weights/
+
+# Captured/Output Images
+captured_*.jpg
+captured_*.png
+extracted_photo.jpg
+captured_id_card.jpg
+
+# Sample and test images
+sample_face.JPG
+
+# ============================================
+# 🚗 LICENSE PLATE DETECTION PROJECT (YOLOv10)
+# ============================================
+
+# YOLOv10 repository (cloned)
+license/License-Plate-Extraction-Save-Data-to-SQL-Database/yolov10/
+License-Plate-Extraction-Save-Data-to-SQL-Database/yolov10/
+
+# Virtual environments (project-specific)
+license/License-Plate-Extraction-Save-Data-to-SQL-Database/venv_license/
+License-Plate-Extraction-Save-Data-to-SQL-Database/venv_license/
+
+# License Plate Database
+licensePlatesDatabase.db
+*.db-journal
+
+# License Plate Output Videos
+license/License-Plate-Extraction-Save-Data-to-SQL-Database/output/videos/
+License-Plate-Extraction-Save-Data-to-SQL-Database/output/videos/
+
+# License Plate JSON Outputs
+license/License-Plate-Extraction-Save-Data-to-SQL-Database/json/output_*.json
+License-Plate-Extraction-Save-Data-to-SQL-Database/json/output_*.json
+
+# Processed videos
+*_processed.mp4
+
+# Model weights and checkpoints
+best.pt
+*.weights
+*.ckpt
+
+# ============================================
+# 🔧 ADDITIONAL PYTHON PATTERNS
+# ============================================
+
+# More Python bytecode
+*.pyo
+*.pyd
+
+# Distribution / packaging
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+.installed.cfg
+MANIFEST
+
+# PyInstaller
+*.manifest
+
+# Unit test / coverage
+.tox/
+.nox/
+nosetests.xml
+.hypothesis/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django
+local_settings.py
+db.sqlite3-journal
+
+# Flask
+instance/
+.webassets-cache
+
+# Scrapy
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# pdm
+.pdm.toml
+.pdm-python
+.pdm-build/
+
+# PEP 582
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath
+*.sage.py
+
+# Spyder
+.spyderproject
+.spyproject
+
+# Rope
+.ropeproject
+
+# mkdocs
+/site
+
+# Pyre
+.pyre/
+
+# pytype
+.pytype/
+
+# Cython
+cython_debug/
+
+# PyCharm (JetBrains)
+.idea/
+
+# ==========================================
+# Campus Access Control System
+# ==========================================
+# YOLO model weights (large files)
+campus-access-control/models/*.pt
+campus-access-control/models/*.pth
+campus-access-control/models/*.onnx
+campus-access-control/models/*.weights
+
+# Output data (generated at runtime)
+campus-access-control/outputs/vehicle_data/*.json
+campus-access-control/outputs/id_card_data/*.json
+campus-access-control/outputs/id_card_data/*.csv
+campus-access-control/outputs/access_logs/*.json
+campus-access-control/outputs/access_logs/*.txt
+campus-access-control/outputs/captured_frames/*.jpg
+campus-access-control/outputs/captured_frames/*.png
+campus-access-control/outputs/captured_frames/*.jpeg
+campus-access-control/outputs/live_captures/*.jpg
+campus-access-control/outputs/live_captures/*.png
+
+# Input data (videos and images - can be large)
+campus-access-control/data/videos/*.mp4
+campus-access-control/data/videos/*.avi
+campus-access-control/data/videos/*.mov
+campus-access-control/data/id_cards/*.jpg
+campus-access-control/data/id_cards/*.png
+campus-access-control/data/id_cards/*.jpeg
+campus-access-control/data/training_data/*.jpg
+campus-access-control/data/training_data/*.png
+
+# Training runs
+campus-access-control/runs/
+
+# ID card images
+campus-access-control/id_card_images/*.jpg
+campus-access-control/id_card_images/*.png
+
+# Virtual environment
+campus-access-control/venv/
+
+# Database files (if used)
+campus-access-control/*.db
+campus-access-control/*.sqlite
+campus-access-control/*.sqlite3
+
+# Keep README files
+!campus-access-control/models/README.md
+!campus-access-control/data/videos/.gitkeep
+!campus-access-control/data/id_cards/.gitkeep
