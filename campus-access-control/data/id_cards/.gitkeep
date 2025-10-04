@@ -1,0 +1,13 @@
+# This folder stores sample ID card images for testing
+
+Place student/staff ID card images here for testing the verification system.
+
+Supported formats:
+- .jpg
+- .png
+- .jpeg
+
+Example usage:
+```powershell
+python id_card_verifier.py --image data/id_cards/student_001.jpg
+```

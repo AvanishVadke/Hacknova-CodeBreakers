@@ -284,3 +284,42 @@ cython_debug/
 
 # PyCharm (JetBrains)
 .idea/
+
+# ==========================================
+# Campus Access Control System
+# ==========================================
+# YOLO model weights (large files)
+campus-access-control/models/*.pt
+campus-access-control/models/*.pth
+campus-access-control/models/*.onnx
+campus-access-control/models/*.weights
+
+# Output data (generated at runtime)
+campus-access-control/outputs/vehicle_data/*.json
+campus-access-control/outputs/id_card_data/*.json
+campus-access-control/outputs/access_logs/*.json
+campus-access-control/outputs/access_logs/*.txt
+campus-access-control/outputs/captured_frames/*.jpg
+campus-access-control/outputs/captured_frames/*.png
+campus-access-control/outputs/captured_frames/*.jpeg
+
+# Input data (videos and images - can be large)
+campus-access-control/data/videos/*.mp4
+campus-access-control/data/videos/*.avi
+campus-access-control/data/videos/*.mov
+campus-access-control/data/id_cards/*.jpg
+campus-access-control/data/id_cards/*.png
+campus-access-control/data/id_cards/*.jpeg
+
+# Virtual environment
+campus-access-control/venv/
+
+# Database files (if used)
+campus-access-control/*.db
+campus-access-control/*.sqlite
+campus-access-control/*.sqlite3
+
+# Keep README files
+!campus-access-control/models/README.md
+!campus-access-control/data/videos/.gitkeep
+!campus-access-control/data/id_cards/.gitkeep
