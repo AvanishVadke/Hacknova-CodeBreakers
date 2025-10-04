@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-10-04T09:27:25.675622",
+  "stats": {
+    "total_images": 60,
+    "successfully_labeled": 16,
+    "failed": 44,
+    "train_images": 12,
+    "val_images": 4
+  },
+  "dataset_path": "id_card_dataset",
+  "model_path": "models/id_card_best.pt"
+}

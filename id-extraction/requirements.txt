@@ -1,0 +1,31 @@
+# Required Python packages for ID Card Recognition Pipeline
+# Python 3.8+ required
+
+# Core Dependencies
+opencv-python==4.10.0.84
+numpy>=1.24.0,<2.0.0
+
+# YOLOv8 Object Detection (NEW!)
+ultralytics>=8.3.0
+
+# OCR
+pytesseract==0.3.13
+easyocr==1.7.2
+
+# Face Recognition (Optional - can use OpenCV Haar Cascade instead)
+# deepface>=0.0.92
+# tensorflow>=2.15.0
+
+# Utilities
+Pillow==10.4.0
+pandas==2.2.3
+matplotlib==3.9.3
+
+# Optional: GPU Support (uncomment if you have NVIDIA GPU with CUDA)
+# opencv-contrib-python==4.10.0.84  # For CUDA support (cv2.cuda)
+# tensorflow-gpu>=2.15.0  # GPU-accelerated TensorFlow
+
+# Note: For GPU acceleration, you also need to install:
+# - NVIDIA CUDA Toolkit (11.2+)
+# - cuDNN (8.1+)
+# - Tesseract OCR binary (https://github.com/UB-Mannheim/tesseract/wiki)

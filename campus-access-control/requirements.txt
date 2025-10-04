@@ -1,0 +1,32 @@
+# Campus Access Control System - Requirements
+# Python 3.11 or higher recommended
+
+# Deep Learning Frameworks
+torch>=2.0.0
+torchvision>=0.15.0
+ultralytics>=8.0.0
+
+# Computer Vision
+opencv-python>=4.8.0
+easyocr>=1.7.0
+
+# Image Processing
+numpy>=1.24.0
+pillow>=10.0.0
+
+# Data Handling
+pandas>=2.0.0
+
+# Utilities
+python-dateutil>=2.8.0
+
+# Optional: Database (if extending to SQL)
+# sqlite3 (built-in with Python)
+
+# Optional: Web Dashboard (future extension)
+# flask>=2.3.0
+# dash>=2.11.0
+
+# Development Tools (optional)
+# jupyter>=1.0.0
+# matplotlib>=3.7.0

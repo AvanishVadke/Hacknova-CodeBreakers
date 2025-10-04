@@ -1,0 +1,13 @@
+# This folder stores input video files for processing
+
+Place your CCTV/camera video recordings here for batch processing.
+
+Supported formats:
+- .mp4 (recommended)
+- .avi
+- .mov
+
+Example usage:
+```powershell
+python vehicle_plate_recognizer.py --video data/videos/gate_camera.mp4
+```

@@ -1,0 +1,6 @@
+names:
+- id_card
+nc: 1
+path: C:\Users\DELL\Desktop\AvanishCodes\Hacknova-CodeBreakers\campus-access-control\id_card_dataset
+train: images/train
+val: images/val
